@@ -48,7 +48,7 @@ def get_email_info():
     talk("waht is your subject to send in email")
     subject = get_info()
     talk('what is message for email.')
-    message = get_info()
+    message = f"Dear sir \n I am automatic email sender to make easy your work by helping your Voice command. \n your message is:-\n {get_info()}"
     send_mail(receiver,subject,message)
 
 g= get_email_info()

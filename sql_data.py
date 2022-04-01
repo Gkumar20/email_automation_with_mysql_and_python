@@ -16,5 +16,6 @@ if mydb.is_connected():
         lst = list(row)
         # print(lst[1])
         email_dictionary[lst[1]]=lst[2]
+    # print(email_dictionary)
 
     
