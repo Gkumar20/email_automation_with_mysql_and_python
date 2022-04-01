@@ -1,2 +1,2 @@
-email = 'learninganesh@gmail.com'
-password = 'Learninganesh@18'
+email = 'sender email id'
+password = 'password'
